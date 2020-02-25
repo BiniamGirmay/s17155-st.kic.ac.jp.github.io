@@ -4,37 +4,67 @@
 <meta charset="UTF-8">
 <title>Mahlet Home Page</title>
 <style>
-body {
-  margin: 0;
+.bodyclass {
+	background-color: #f1f1f1;
+	padding: 30px;
 }
 
-.body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  
+.imageclass {
+	background-image: url("image/img_forest.jpg");
+	background-color: #cccccc;
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
+.imageclass-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.menuclass a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menuclass {
+	padding: 5px;
+}
 </style>
 </head>
 <body>
-<div class="body">
-<p>
-<img src="image/pic.png" alt="My Picture" style="width:30%">
-</p>
-<h1>Mahlet Borena</h1>
-<ul>
-<li>Home Page<a href="https://mahisharew.github.io/s17155-st.kic.ac.jp.github.io/"></a></li>
-<li>Lab 1</li>
-<li>Lab 2</li>
-<li>Lab 3</li>
-</ul>
-<p>
-  <a href="http://validator.w3.org/check?uri=referer"
-     onclick="this.href='http://validator.w3.org/check?uri=' + 
-document.URL"><img
-      src="http://www.w3.org/Icons/valid-xhtml10"
-      alt="Valid XHTML 1.0!" height="31" width="88" /></a>
-</p>
-</div>
+	<div class="bodyclass">
+		<div class="imageclass">
+			<div class="imageclass-text">
+				<img src="image/pic.png" alt="Mahlet Picture"
+					style="width: 35%; height: 200px; border-radius: 50%;">
+			</div>
+		</div>
+		<h1>Mahlet Borena</h1>
+		<div class="menuclass">
+			<a href="https://mahisharew.github.io/s17155-st.kic.ac.jp.github.io/">Lab0
+				HomePage</a>
+		</div>
+		<div class="menuclass">
+			<a href="#">Lab1</a>
+		</div>
+		<div class="menuclass">
+			<a href="#">Lab2</a>
+		</div>
+		<div class="menuclass">
+			<a href="#">Lab3</a>
+		</div>
+
+		<a href="http://validator.w3.org/check/referer"> <img
+			src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+			alt="html validator" /></a>
+	</div>
 </body>
 </html>
