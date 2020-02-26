@@ -1,0 +1,51 @@
+.bodyclass{
+	background-color: #f1f1f1;
+	margin-top: 10px;
+	margin-left:100px;
+	margin-right: 100px;
+}
+
+h1, h2	{
+	   color: #A4A400;
+   	   background-color: #F0F0F0;
+   	   font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+   	   text-decoration: underline;
+   	   letter-spacing: 0.2em;
+   	   margin:10px
+	 }
+
+
+h1	{
+	   text-align: center;
+   	   font-size: 22pt;
+  	   font-weight: bold;
+	}
+
+
+h2	{
+   	   text-align: left;
+   	   font-size: 18pt;
+   	   font-weight: normal;
+	}
+
+
+p, li	{
+   	   color: #404040;
+   	   font-size: 11pt;
+   	   font-family: "Georgia", "Garamond", "Serif";
+   	   margin:10px
+	}
+
+
+a	{
+   	   color: #A4A400;
+   	   text-decoration: underline;
+   	   margin:10px
+	}
+
+
+blockquote   {
+   		font-style: italic;
+   		background-color: #FFFFC8;
+	     }
+
