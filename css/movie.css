@@ -90,7 +90,7 @@ h1 {
 }
 .overview img {
 	
-	float: block
+	float: none;
 }
 
 .overviewtext {
