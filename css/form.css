@@ -1,27 +1,74 @@
-.form-style-1{
-	
-	margin:10px auto;
-	max-width: 400px;
-	padding: 20px 12px 10px 20px;
-	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+body {
+	margin: 5%;
+	background-color: #f9f8fa;
 }
 
-.form-style-1 label{
-	margin: 5%;
-	padding:0px;
-	display:block;
-	font-weight: bold;
-} 
-select{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	border:1px solid #BEBEBE;
-	padding: 7px;
-	margin:0px;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-	outline: none;	
+.content {
+	border-radius: 0 10px 0 10px;
+	overflow: hidden;
+	
+	
+	
+}
+
+.contentgrade{
+
+		
+	border-radius: 0 10px 0 10px;
+	overflow:hidden;
+	background-color: #cccccc;
+	
+}
+
+.formclasssgrade{
+	width:530px;
+	margin-left:5%;
+	background-color: #cccccc;
+	border-radius: 0 10px 0 10px;
+	overflow:hidden;
+	
+}
+.formclass {
+	width: 530px;
+	margin-left: 5%;
+	background-color: #dfd3f9;
+	border-radius: 20px 20px 20px 20px;
+	outline-offset: 25px;	
+	overflow: hidden;
+	outline-offset: 25px;
+	border: 3px solid darkgray;
+}
+
+.labelclass {
+	width: 27%;
+	float: left;
+	margin-top: 1%;
+	padding-left:2%;
+}
+
+.inputclass {
+	width: 44%;
+	float: left;
+	margin-bottom: 1%;
+	font-width: 20px;
+}
+.minmax{
+	width: 50px;
+}
+.headercontent {
+	background-color: white;
+	width: 160px;
+	margin-top: -1px;
+	border: 6px solid #9e9a94;
+	margin-left: 10px;
+}
+a{
+	text-decoration:none;
+	color :red;
+}
+input[type="submit"] {
+	width: 100px;
+	font-size: 17px;;
+	background-color: #f3bb56;
+}
 }

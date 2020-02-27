@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>New User Sign Up</title>
+<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+	<div class="content">
+		<form method="POST" action="getInformation.html" class="formclass">
+			<p class="headercontent">New User Sign Up:</p>
+			<div class="labelclass">
+				<label> Name: </label>
+			</div>
+			<div class="inputclass">
+				<input type="text" name="name" maxlength="16">
+			</div>
+			<div class="labelclass">
+				<label>Gender:</label>
+			</div>
+			<div class="inputclass">
+				<label><input type="radio" name="gender" checked
+					value="male">Male </label><label><input value="female"
+					type="radio" name="gender">Female </label>
+			</div>
+			<div class="labelclass">
+				<label> Age: </label>
+			</div>
+			<div class="inputclass">
+				<input type="text" name="age" class="minmax" size="4" maxlength="2">
+			</div>
+			<div class="labelclass">
+				<label> Personality Type: </label>
+			</div>
+			<div class="inputclass">
+				<input type="text" name="personalityType" class="minmax" size="6"
+					maxlength="4"> <a
+					href="https://www.16personalities.com/free-personality-test">(Do
+					not know your Type?)</a>
+			</div>
+			<div class="labelclass">
+				<label>Favorite Os :</label>
+			</div>
+			<div class="inputclass">
+				<select id="favoriteos" name="os">
+					<option value="windows" selected>Windows</option>
+					<option value="Mac">Mac OS X</option>
+					<option value="Linux">Linux</option>
+				</select>
+			</div>
+
+			<div class="labelclass">
+				<label> Seeking age: </label>
+			</div>
+			<div class="inputclass">
+				<input type="text" placeholder="min" class="minmax" size="6"
+					maxlength="2" name="min">to <input type="text"
+					placeholder="max" class="minmax" size="6" maxlength="2" name="max">
+			</div>
+			<div class="inputclass">
+				<label> <input type="submit" value="Sign Up">
+				</label>
+			</div>
+		</form>
+		<p style="text-align: right;">
+			<a href="http://validator.w3.org/check?uri=referer"
+				onclick="this.href='http://validator.w3.org/check?uri=' + document.URL"><img
+				src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!"
+				height="31" width="88" /></a> <a
+				href="https://jigsaw.w3.org/css-validator/check/referer"> <img
+				style="border: 0; width: 88px; height: 31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss"
+				alt="Valid CSS!" />
+			</a>
+
+		</p>
+	</div>
+</body>
+</html>
