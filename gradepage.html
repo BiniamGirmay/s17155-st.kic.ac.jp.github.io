@@ -4,27 +4,31 @@
 <meta charset="UTF-8">
 <title>Retrieve Grade</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/form.css">
 </head>
 <body>
 	<h1>Retrieve Grade</h1>
-	<form method="POST" action="getInformation.html">
-		<p>
-			Student Name:<input id="studentName" type="text" />
-		</p>
-		<p>
-			Student Id:<input id="studentId" type="text" />
-		</p>
-		<p>Assignment want to Grade:</p>
+	<form method="POST" action="getInformation.html" class="form-style-1">
+		<label>
+			Student Name:<input id="studentName" type="text" /></label>
+		
+		<label>
+			Student Id :<input id="studentId" type="text" /></label>
+		
+		<label>Assignment want to Grade:
 		<select id="cars" name="cars">
 			<option value="MPP">MPP</option>
 			<option value="WAP">WAP</option>
 			<option value="WAA">WAA</option>
 			<option value="EA">EA</option>
-		</select>
-		<p>student's entry:</p>
-		<input type="radio">Nov <input type="radio">AUG
-		<p>Please Confirm</p>
-		> <input type="checkbox">confirm
+		</select></label>
+		
+		<label>student's entry:
+		<input type="radio">Nov <input type="radio">AUG</label>
+		
+		<label>Please Confirm
+		<input type="checkbox">confirm</label>
+		
 	</form>
 </body>
 </html>
