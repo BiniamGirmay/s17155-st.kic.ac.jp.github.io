@@ -50,7 +50,6 @@ body {
 	width: 44%;
 	float: left;
 	margin-bottom: 1%;
-	font-width: 20px;
 }
 .minmax{
 	width: 50px;
@@ -71,4 +70,4 @@ input[type="submit"] {
 	font-size: 17px;;
 	background-color: #f3bb56;
 }
-}
+
