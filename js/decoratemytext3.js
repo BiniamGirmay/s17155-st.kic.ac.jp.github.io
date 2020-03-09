@@ -5,17 +5,26 @@
 window.onload = function() {
 	var largeButton = document.getElementById("button1");
 	largeButton.onclick = largeButtonClick;
+	var PigLatin = document.getElementById("PigLatin");
+	PigLatin.onclick = PigLatinonClick;
 	var checkBox1 = document.getElementById("checkbox1");
 	checkBox1.onclick = checkBoxClick;
 };
 function largeButtonClick() {
-	setInterval(changeStyel, 500);
+	var string = document.getElementById("areaID").value;
+	var returnvalue=" ";
+	var words = string.split(" ");
+	for(let i=0; i< words.length;i++){
+		if(words[i].length>=5){
+			words[i]="Malkovich";
+		}
+		returnvalue=returnvalue+" "+words[i];
+	}
+	document.getElementById("areaID").value=returnvalue;
+
 }
-function changeStyel(){
-	var size = parseInt(document.getElementById("areaID").style.fontSize);
-	size += 12; 
-    document.getElementById("areaID").style.fontSize = size+ "pt";
-	alert("Hello, world!");
+
+function PigLatinonClick(){
 	
 	
 }
