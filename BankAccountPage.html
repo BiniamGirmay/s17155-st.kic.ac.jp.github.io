@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link href="css/decoratemytext.css" type="text/css" rel="stylesheet" />
+<title>Text Decorator</title>
+<link href="css/bankAccount.css" type="text/css" rel="stylesheet" />
 <script src="js/bankAccount.js" type="text/javascript"></script>
 </head>
 <body>
-Account Type
-<input type="text" name="accountType" id="acccountType"/>
-Deposit
-<input type="text" name="deposit" id="deposit"/>
-<input type="submit" value="Create new Account" id="createAccount"/>
+<fieldset style="width:280px;">
+		<legend >Create Account</legend>
+	
+		<label>Account Type
+		<input type="text"  id="accountType"  required></label><span id="accounttypeerror"></span>
+<br>
+			<label>Deposit
+		<input type="text"  id="deposit"  required></label><span id="depositeerror"></span>
+			<p>
+			<input type="submit" value="Create Account !"id="createAccount"/>
+		</p>
+		<textarea  rows="4" cols="60"   id="areaID"></textarea>
+		<a></a>a
+	</fieldset>
 </body>
 </html>
