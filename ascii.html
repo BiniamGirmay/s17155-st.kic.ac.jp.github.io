@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>ASCIImation</title>
+<meta charset="utf-8" />
+<link href="css/ascii.css" type="text/css" rel="stylesheet" />
+<script src="js/ascii.js" type="text/javascript"></script>
+<script src="js/animation.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>ASCII Animation Viewer</h1>
+	<textarea id="mytextarea" rows="20" cols="80"></textarea>
+	<div>
+		<fieldset>
+			<legend>Player Controls:</legend>
+			<button id="startButton">Start</button>
+			<button id="stopButton">Stop</button>
+		</fieldset>
+
+		<fieldset>
+			<legend>Animation:</legend>
+			<select id="animation">
+				<option selected="selected" value="blank">Blank</option>
+				<option value="exercise">Exercise</option>
+				<option value="juggler">Juggler</option>
+				<option value="bike">Bike</option>
+				<option value="dive">Dive</option>
+				<option value="custom">Custom</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Size:</legend>
+			<select id="size">
+				<option value="7pt">Tiny</option>
+				<option value="10pt">Small</option>
+				<option selected="selected" value="12pt">Medium</option>
+				<option value="16pt">Large</option>
+				<option value="24pt">Extra Large</option>
+				<option value="32pt">XXL</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Speed:</legend>
+			<input type="radio" name="speed" value="50" />Turbo <input
+				type="radio" checked="checked" name="speed" value="250" />Normal <input
+				type="radio" name="speed" value="1500" />Slo-Mo
+		</fieldset>
+	</div>
+	<div id="validate">
+		<p>
+			<a href="http://validator.w3.org/check?uri=referer"
+				onclick="this.href='http://validator.w3.org/check?uri=' + document.URL"><img
+				src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!"
+				height="31" width="88" /></a> <a
+				href="https://jigsaw.w3.org/css-validator/check/referer"> <img
+				style="border: 0; width: 88px; height: 31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss"
+				alt="Valid CSS!" />
+			</a> <a
+				href="https://webster.cs.washington.edu/jslint/?referer"><img
+				src="w3c-js.jpg" alt="JS Validator" /></a>
+		</p>
+	</div>
+
+</body>
+</html>
