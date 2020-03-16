@@ -14,8 +14,6 @@ function calcTip() {
 	
 	totalElem.innerHTML = '$' + total;
 	
-		
-
 }
 function clickMe() {
 	var clickedMe = document.getElementById('clickedMe');

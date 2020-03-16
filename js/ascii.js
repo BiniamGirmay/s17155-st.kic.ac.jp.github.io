@@ -47,7 +47,7 @@ function play() {
 	var allFrames = textarea.value.split("=====\n");
 	///alert(allFrames);
 	currentAnimation = allFrames;
-	interval = setInterval(function() {displayNextFrame(currentAnimation);}, speed);
+	interval = setInterval(function() {displayNextFrame(currentAnimation);},speed);
 }
 
 // stops the animation and displays all frames

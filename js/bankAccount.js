@@ -41,18 +41,3 @@ function createAccount() {
 }
 
 
-function checkBoxClick() {
-	var checkBox1 = document.getElementById("checkbox1");
-	if (checkBox1.checked == true) {
-		document.getElementById("areaID").style.fontWeight = "bold";
-		document.getElementById("areaID").style.color = "green";
-		document.getElementById("areaID").style.textDecoration = "underline";
-
-	} else {
-		document.getElementById("areaID").style.fontWeight = "normal";
-		document.getElementById("areaID").style.color = "black";
-		document.getElementById("areaID").style.textDecoration = "none";
-
-	}
-
-}
